@@ -23,12 +23,22 @@
   },
   "homepage": "https://github.com/MrZhouZh/conventional-changelog-demo#readme",
   "dependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
     "commitizen": "^4.2.3",
-    "cz-conventional-changelog": "^3.3.0"
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^4.3.8",
+    "standard-version": "^9.1.0"
   },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo push code before commit",
+      "commit-msg": "commitlint -e .git/COMMIT_EDITMSG"
     }
   }
 }
