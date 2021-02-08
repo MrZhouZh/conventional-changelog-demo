@@ -4,7 +4,8 @@
   "description": "commit conventional demo",
   "main": "index.js",
   "scripts": {
-    "test": "n"
+    "commit": "git cz",
+    "genlog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "repository": {
     "type": "git",
