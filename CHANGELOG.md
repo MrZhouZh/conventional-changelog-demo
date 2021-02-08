@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/MrZhouZh/conventional-changelog-demo/compare/v1.1.1...v1.1.2) (2021-02-08)
+
+
+### Bug Fixes
+
+* cant use shell ([71242aa](https://github.com/MrZhouZh/conventional-changelog-demo/commit/71242aad0daab4ebe87f1cb74412ee0b11a2e7c1))
+
 ### [1.1.1](https://github.com/MrZhouZh/conventional-changelog-demo/compare/v1.1.0...v1.1.1) (2021-02-08)
 
 
