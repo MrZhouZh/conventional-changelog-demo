@@ -1,0 +1,31 @@
+{
+  "name": "conventional-changelog-demo",
+  "version": "1.0.0",
+  "description": "commit 提交规范和自动生成changelog 示例",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrZhouZh/conventional-changelog-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrZhouZh/conventional-changelog-demo/issues"
+  },
+  "homepage": "https://github.com/MrZhouZh/conventional-changelog-demo#readme",
+  "devDependencies": {
+    "commitizen": "^4.2.3"
+  },
+  "dependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
