@@ -1,11 +1,12 @@
 {
   "name": "conventional-changelog-demo",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "commit conventional demo",
   "main": "index.js",
   "scripts": {
     "commit": "git cz",
-    "genlog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+    "genlog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
