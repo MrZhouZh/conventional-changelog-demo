@@ -41,5 +41,10 @@
       "pre-commit": "echo push code before commit",
       "commit-msg": "commitlint -e .git/COMMIT_EDITMSG"
     }
+  },
+  "standard-version": {
+    "scripts": {
+      "posttag": "git push --follow-tags origin"
+    }
   }
 }
